@@ -1,0 +1,16 @@
+{
+    "User_Key": "",
+    "API":"capmonster",
+    "Capmonster_Key": "",
+    "2Captcha_Key": "",
+    "Anticaptcha_Key": "",
+    "Discord_Webhook": "https://discord.com/api/webhooks/792445426657001532/A9-tOm5GFRoJN3x37i4GoJ852w7SNxnGdj-am-cmUuSO2hw5ujsERcP8jdF96vDJfbFU",
+    "Task_Delay": 1,
+    "Entry_Delay_Min": 5,
+    "Entry_Delay_Max": 10,
+    "Error_Limit": 3,
+    "Error_Delay": 3,
+    "Email": "",
+    "Password": "",
+    "IMAP Server": "outlook.office365.com"
+}

@@ -1,0 +1,1 @@
+pyarmor pack --clean -e "--hidden-import=polling --add-data=cloudscraper;cloudscraper --onefile --icon=ExoRaffles.ico " main.py

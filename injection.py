@@ -69,13 +69,13 @@ def is_fingerprint_challenge(resp):
 
 def injection(session, response):
     if session.is_New_IUAM_Challenge(response):
-        return CF_2(session,response,key="75e62267-8d14-4158-ba72-d4eeb5d87422",captcha=False,debug=False).solve() # FALSE is actually the default value but is displayed here to show that you need to have it true for captcha handling
+        return CF_2(session,response,key="",captcha=False,debug=False).solve() # FALSE is actually the default value but is displayed here to show that you need to have it true for captcha handling
                                                     # note that currently no captcha token getter is provided you can edit the file and add your solution
     elif session.is_New_Captcha_Challenge(response):
-        return CF_2(session, response, key="75e62267-8d14-4158-ba72-d4eeb5d87422", captcha=True,
+        return CF_2(session, response, key="", captcha=True,
                     debug=False).solve()
     elif is_fingerprint_challenge(response):
-        return Cf_challenge_3(session,response,key="75e62267-8d14-4158-ba72-d4eeb5d87422",debug=False).solve()
+        return Cf_challenge_3(session,response,key="",debug=False).solve()
 
 
 
